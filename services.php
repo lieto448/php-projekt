@@ -1,31 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="TemplateMo">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-
-    <title>Host Cloud Template - Services</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-host-cloud.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-<!--
-
-Host Cloud Template
-
-https://templatemo.com/tm-541-host-cloud
-
--->
-  </head>
+  <?php include_once "parts/header.php"?>
 
   <body>
 
@@ -40,40 +16,7 @@ https://templatemo.com/tm-541-host-cloud
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
-    <header class="">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><h2>Host <em>Cloud</em></h2></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="services.html">Our Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <div class="functional-buttons">
-            <ul>
-              <li><a href="#">Log in</a></li>
-              <li><a href="#">Sign Up</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <?php include_once "parts/body_header.php"?>
 
     <!-- Page Content -->
     <!-- Heading Starts Here -->
@@ -194,71 +137,7 @@ https://templatemo.com/tm-541-host-cloud
 
 
     <!-- Footer Starts Here -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="footer-item">
-              <div class="footer-heading">
-                <h2>About Us</h2>
-              </div>
-              <p>Host Cloud is provided by TemplateMo for free of charge. Anyone can download and use this CSS Bootstrap template for commercial purposes.</p>
-            </div>
-          </div>
-          
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="footer-item">
-              <div class="footer-heading">
-                <h2>Hosting Plans</h2>
-              </div>
-              <ul class="footer-list">
-                <li><a href="#">Basic Cloud 5X</a></li>
-                <li><a href="#">Cloud VPS 10X</a></li>
-                <li><a href="#">Advanced Cloud</a></li>
-                <li><a href="#">Custom Designs</a></li>
-                <li><a href="#">Special Solutions</a></li>
-              </ul>
-            </div>
-          </div>
-          
-          
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="footer-item">
-              <div class="footer-heading">
-                <h2>Useful Links</h2>
-              </div>
-              <ul class="footer-list">
-                <li><a href="#">Cloud Hosting Platform</a></li>
-                <li><a href="#">Light Speed Zone</a></li>
-                <li><a href="#">Content Delivery Network</a></li>
-                <li><a href="#">Customer Support</a></li>
-                <li><a href="#">Latest News</a></li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="footer-item">
-              <div class="footer-heading">
-                <h2>More Information</h2>
-              </div>
-              <ul class="footer-list">
-                <li>Phone: <a href="#">010-020-0560</a></li>
-                <li>Email: <a href="#">mail@company.com</a></li>
-                <li>Support: <a href="#">support@company.com</a></li>
-                <li>Website: <a href="#">www.company.com</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="sub-footer">
-              <p>Copyright &copy; 2020 Cloud Hosting Company
-				- Designed by <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <?php include_once "parts/footer.php"?>
     <!-- Footer Ends Here -->
 
     <!-- Bootstrap core JavaScript -->
