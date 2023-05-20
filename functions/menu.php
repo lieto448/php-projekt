@@ -35,3 +35,18 @@ function getMenu(string $type): array
     return $menu;
 
 }
+
+function validateMenuType(string $menuType): bool
+{
+    $validTypes = [
+        "header",
+        "footer",
+        "main"
+    ];
+
+    if (in_array($menuType, $validTypes)) {
+        return true;
+    } else {
+        return false;
+    }
+}
