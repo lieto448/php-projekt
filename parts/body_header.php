@@ -1,3 +1,9 @@
+
+<?php 
+  include_once "functions/menu.php";
+  $menu = getMenu("header");
+?>
+
 <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -7,20 +13,17 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.php">Home
+              <?php 
+
+              foreach ($menu as $key => $menuItem){
+                echo '<li class="nav-item">
+                <a class="nav-link" href="'.$menuItem['path'].'">'.$menuItem['name'].'
                   <span class="sr-only">(current)</span>
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.php">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.php">Our Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.php">Contact Us</a>
-              </li>
+              </li>';
+              }
+              //printMenu($menu);
+              ?>
             </ul>
           </div>
           <div class="functional-buttons">

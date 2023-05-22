@@ -50,3 +50,10 @@ function validateMenuType(string $menuType): bool
         return false;
     }
 }
+
+function printMenu(array $menu)
+{
+    foreach ($menu as $key => $menuItem){
+        echo '<li><a href="'.$menuItem['path'].'">'.$menuItem['name'].'</a></li>';
+    }
+}
