@@ -6,13 +6,7 @@
   <body>
 
     <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>  
+    <?php include_once "parts/preloader.php"; ?>   
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
