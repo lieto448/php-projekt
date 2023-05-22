@@ -25,37 +25,23 @@
         <div class="row">
           <div class="col-md-6">
             <div class="contact-form">
-              <form id="signup" action="signup_action.php" method="post">
+              <form id="login" action="login_action.php" method="post">
                 <div class="row">
                   <div class="col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="name" type="text"   placeholder="Your full name" required="">
+                      <input name="name" type="text"   placeholder="Username/Email" required="">
                     </fieldset>
                   </div>
-                  <div class="col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="email" type="text"  placeholder="Your email" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="uid" type="text" placeholder="Username" required="">
-                    </fieldset>
-                  </div>
+                  
                   <div class="col-md-12 col-sm-12">
                     <fieldset>
                       <input name="pwd" type="password" placeholder="Password" required="">
                     </fieldset>
                   </div>
-                  <div class="col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="pwdrepeat" type="password" placeholder=" Repeat Password" required="">
-                    </fieldset>
-                  </div>
-
+                  
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit"  class="main-button">Sign Up</button>
+                      <button type="submit"  class="main-button">Log In</button>
                     </fieldset>
                   </div>
                 </div>
