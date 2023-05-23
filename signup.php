@@ -25,7 +25,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="contact-form">
-              <form id="signup" action="signup_action.php" method="post">
+              <form id="signup" action="functions/signup_action.php" method="post">
                 <div class="row">
                   <div class="col-md-12 col-sm-12">
                     <fieldset>

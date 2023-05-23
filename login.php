@@ -25,7 +25,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="contact-form">
-              <form id="login" action="login_action.php" method="post">
+              <form id="login" action="functions/login_action.php" method="post">
                 <div class="row">
                   <div class="col-md-12 col-sm-12">
                     <fieldset>
