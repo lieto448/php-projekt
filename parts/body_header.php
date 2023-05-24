@@ -1,5 +1,6 @@
 
 <?php 
+  session_start();
   include_once "functions/menu.php";
   $menu = getMenu("header");
 ?>

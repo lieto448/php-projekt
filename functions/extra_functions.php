@@ -88,15 +88,16 @@ function emptyInputLogIn($username, $pwd){
     return $result;
 }
 
-function loginUser($conn, $username, $email){
+function loginUser($conn, $username, $pwd){
     $uidExists =  uidExists($conn, $username, $username);
 
     if ($uidExists === false){
         header("location: ../login.php?error=wronglogin");
         exit();
     }
-
-    $checkPwd = password_verify($pwd);
+    $pwdHashed = $uidExists["users_pwd"];
+    
+    $checkPwd = password_verify($pwd, $pwdHashed);
 
     if ($checkPwd === false){
         header("location: ../login.php?error=wronglogin");

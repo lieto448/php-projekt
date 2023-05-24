@@ -29,7 +29,7 @@
                 <div class="row">
                   <div class="col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="name" type="text"   placeholder="Username/Email" required="">
+                      <input name="uid" type="text"   placeholder="Username/Email" required="">
                     </fieldset>
                   </div>
                   
