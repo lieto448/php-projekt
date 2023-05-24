@@ -55,7 +55,7 @@
 
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit"  class="main-button">Sign Up</button>
+                      <button type="submit" name="submit"  class="main-button">Sign Up</button>
                     </fieldset>
                   </div>
                 </div>

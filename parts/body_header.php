@@ -28,8 +28,8 @@
           </div>
           <div class="functional-buttons">
             <ul>
-              <li><a href="#">Log in</a></li>
-              <li><a href="#">Sign Up</a></li>
+              <li><a href="login.php">Log in</a></li>
+              <li><a href="signup.php">Sign Up</a></li>
             </ul>
           </div>
         </div>

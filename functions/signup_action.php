@@ -11,6 +11,7 @@ if (isset($_POST["submit"])){
     require_once "extra_functions.php";
 
     //čokoľvek len nie false
+    /*
     if (emptyInputSignup($name, $email, $username, $pwd, $pwdReapeat) !== false){
         header("location: ../signup.php?error=emptyinput");
         exit();
@@ -28,10 +29,9 @@ if (isset($_POST["submit"])){
         exit();
     }
 
-    
+    */
 
     createUser($conn, $name, $email, $username, $pwd);
 
 } 
-
 ?>
